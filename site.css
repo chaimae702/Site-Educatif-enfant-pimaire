@@ -1,0 +1,52 @@
+body
+{
+	background-image:url('img.jpg');
+    background-attachment:scroll;
+} 
+h1
+{
+	font-size:3cm;
+}
+ul 
+{
+	width:50%;
+	display: flex;
+	position: relative;
+	left: 15%;
+	list-style: non;
+	font-size: 2cm;
+}
+.ok
+{
+	position: relative;
+	right: 10px;
+	width:100%;
+}
+li 
+{
+	list-style: none;
+     margin-right: 10px;
+	 background-color: rgba(255,255,255,0.4);
+	 padding: 3px;
+	 padding-top: 5px;
+	 padding-bottom: 5px; 
+}
+li:hover
+{
+	background-color: grey;
+}
+h2
+{
+	font-family: arial;
+}
+
+.ok li 
+{
+	margin-right:200px;
+}
+.oui
+{
+	
+	bottom:0px;
+
+}
